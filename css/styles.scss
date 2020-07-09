@@ -1,0 +1,66 @@
+$color-primary: rgba(0, 0, 0, 0.8);
+$color-secondary: #5637dd;
+$color-pale: #CEC8FF;
+$color-mid: #901CAD;
+$color-dark: #60106b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: 'Lato', sans-serif;
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Norican', cursive;
+    font-size: 4rem;
+    color: $color-primary;
+
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 20px 30px;
+    background-image: linear-gradient(to right, white, #A7D5EF);
+    color: black;
+}
+
+
+@media only screen and (max-width: 300px) {
+  .jumbotron {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.navbar {
+    color: white;
+    padding: 0px;
+    background-image: repeating-linear-gradient(#0777ba, #bc3644, #19191a,  #feea00, #39a648 );
+   
+ }
+
+
+ #card-ads {
+     padding: auto;
+ }
+
+ .bikeCard {
+    padding: 3% 2%;
+}
+ 
+
+ footer {
+    background-image: linear-gradient(to right, white, #FFF7AC);
+    padding: 20px 0;
+}

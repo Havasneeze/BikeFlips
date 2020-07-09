@@ -1,57 +1,43 @@
 body {
-    font-family: 'Lato', sans-serif;
-}
+  font-family: 'Lato', sans-serif; }
 
 h1 {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Norican', cursive;
-    font-size: 4rem;
-
-}
+  font-family: 'Lato', sans-serif;
+  font-family: 'Norican', cursive;
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.8); }
 
 .jumbotron {
-    margin: 0;
-    padding: 20px 30px;
-    background-image: linear-gradient(to right, white, #A7D5EF);
-    color: black;
-}
-
-
+  margin: 0;
+  padding: 20px 30px;
+  background-image: linear-gradient(to right, white, #A7D5EF);
+  color: black; }
 
 @media only screen and (max-width: 300px) {
   .jumbotron {
-    background-color: lightblue;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
-
-
+    background-color: lightblue; } }
 
 .navbar {
-    color: white;
-    padding: 0px;
-    background-image: repeating-linear-gradient(#0777ba, #bc3644, #19191a,  #feea00, #39a648 );
-   
- }
-   
- }
-
- #card-ads {
-     padding: auto;
- }
-
- .bikeCard {
-    padding: 5% 2%;
+  color: white;
+  padding: 0px;
+  background-image: repeating-linear-gradient(#0777ba, #bc3644, #19191a, #feea00, #39a648); 
 }
- 
 
- footer {
-    background-image: linear-gradient(to right, white, #FFF7AC);
-    padding: 20px 0;
+.navbar h3{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Norican', cursive;
 }
+
+#card-ads {
+  padding: auto; }
+
+.bikeCard {
+  padding: 3% 2%; }
+
+#description {
+  margin: 80px 0px;
+}
+
+footer {
+  background-image: linear-gradient(to right, white, #FFF7AC);
+  padding: 20px 0; }
