@@ -38,6 +38,13 @@ h1 {
   margin: 80px 0px;
 }
 
+.carousel-inner {
+  width: 100%;
+  height: auto;
+
+}
+
 footer {
   background-image: linear-gradient(to right, white, #FFF7AC);
   padding: 20px 0; }
+  
