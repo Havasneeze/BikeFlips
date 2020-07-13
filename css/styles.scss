@@ -64,3 +64,25 @@ h1 {
     background-image: linear-gradient(to right, white, #FFF7AC);
     padding: 20px 0;
 }
+
+.modal-header{
+  background-color: rgba(0,0,0, .0001);
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:10%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:50%;
+  width:50%;
+  position:absolute;
+  }
+
+  .btn-block{
+    width: 300px;
+  }

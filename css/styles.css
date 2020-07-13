@@ -17,16 +17,15 @@ h1 {
   .jumbotron {
     background-color: lightblue; } }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%; } }
+
 .navbar {
   color: white;
   padding: 0px;
-  background-image: repeating-linear-gradient(#0777ba, #bc3644, #19191a, #feea00, #39a648); 
-}
-
-.navbar h3{
-  font-family: 'Lato', sans-serif;
-  font-family: 'Norican', cursive;
-}
+  background-image: repeating-linear-gradient(#0777ba, #bc3644, #19191a, #feea00, #39a648); }
 
 #card-ads {
   padding: auto; }
@@ -34,17 +33,25 @@ h1 {
 .bikeCard {
   padding: 3% 2%; }
 
-#description {
-  margin: 80px 0px;
-}
-
-.carousel-inner {
-  width: 100%;
-  height: auto;
-
-}
-
 footer {
   background-image: linear-gradient(to right, white, #FFF7AC);
   padding: 20px 0; }
-  
+
+.modal-header {
+  background-color: rgba(0, 0, 0, 0.0001); }
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 10%;
+  position: relative;
+  height: 0; }
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 50%;
+  position: absolute; }
+
+.btn-block {
+  width: 300px; }
