@@ -13,19 +13,23 @@ h1 {
   background-image: linear-gradient(to right, white, #A7D5EF);
   color: black; }
 
-@media only screen and (max-width: 300px) {
-  .jumbotron {
-    background-color: lightblue; } }
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%; } }
-
 .navbar {
   color: white;
   padding: 0px;
   background-image: repeating-linear-gradient(#0777ba, #bc3644, #19191a, #feea00, #39a648); }
+
+.navbar-brand {
+  color: white;
+  font-family: 'Norican', cursive;
+  text-align: center; }
+
+@media (max-width: 400px) {
+  .navbar-brand {
+    font-size: 2rem; }
+  .jumbotron {
+    display: none; }
+  .search-field {
+    display: none; } }
 
 #card-ads {
   padding: auto; }
@@ -37,14 +41,13 @@ footer {
   background-image: linear-gradient(to right, white, #FFF7AC);
   padding: 20px 0; }
 
-.modal-header {
+.carousel-head {
   background-color: rgba(0, 0, 0, 0.0001); }
 
 .map-container {
   overflow: hidden;
   margin-bottom: 50px;
-  position: relative;
-  height: 0; }
+  position: relative; }
 
 .map-container iframe {
   left: 0;

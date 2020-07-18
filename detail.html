@@ -22,17 +22,21 @@
 </head>
 
 <body>
+
     <nav class="navbar sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand ml-5" href="index.html">
+            <a class="navbar-brand ml-sm-2 ml-md-5" href="index.html">
                 <img src="img/bicycle.png" width="50" height="50">
             </a>
-            <h3>Bike Flips</h3>
+            <h2 class="navbar-brand">Bike Flips</h2>
 
             <form class="form-inline mx-auto">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <!--<input class="form-control mr-sm-2" type="location" placeholder="Location" aria-label="Location">-->
-                <button class="btn btn-success my-2 my-sm-0" type="submit">GO</button>
+                <div class="search-field">
+                    <input class="form-control mr-sm-2" type="location" placeholder="Location" aria-label="Location">
+                    <button class="btn btn-success my-2 my-sm-0" type="submit">GO</button>
+                </div>
+                
             </form>
 
             <span class="navbar-text mr-5">
@@ -93,7 +97,7 @@
         <div class="form-row">
             <div class="col ">
                 <p>Location:</p>
-            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 300px">
                 <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                 style="border:0" allowfullscreen></iframe>
             </div>
@@ -101,6 +105,8 @@
        
         </div>      
     </div>
+
+    
 
     <footer>
         <div class="container">
@@ -191,8 +197,8 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
-                <div class="modal-header">
-
+                
+                <div class="modal-header carouselHead">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
